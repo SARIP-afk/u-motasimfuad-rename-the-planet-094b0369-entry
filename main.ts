@@ -1,6 +1,10 @@
 // Rename the Planet — entry program (program/v1, node22).
 // Writes the winning one-liner to $MAKEFUN_OUTPUT_DIR/entry.txt.
 // The line: 124 characters, under the 200-character gate.
+// Why this line won the head-to-head (see ../u-motasimfuad-rename-the-planet-094b0369-candidates.md):
+// Jupiter's Great Red Spot is a storm wider than Earth that has raged for
+// 300+ years, so the joke is the idea — a planet nursing a three-century
+// grudge — not a pun on the planet's name, and no other planet could earn it.
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
